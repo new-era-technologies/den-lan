@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 945px;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 20px;
+}
+
+nav {
+    padding: 20px 0;
+    border-bottom: 1px solid #828282;
+}
+
+.nav__list,
+.home__inner,
+.about-me__inner,
+.skills__inner,
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #828282;
+}
+
+.home {
+    padding: 35px 0 100px;
+}
+
+.home__inner {
+    margin-bottom: 55px;
+}
+
+.home__title--name {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47.3392px;
+    line-height: 55px;
+    color: #070707;
+}
+
+.home__title--spec {
+    width: 259px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #070707;
+}
+
+.about-me,
+.skills,
+.portfolio {
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+.about-me__inner {
+    margin-top: 46px;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    color: #070707;
+}
+
+.about-me__descr {
+    width: 451px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #070707;
+}
+
+.skills {
+    background: #ffffff;
+}
+
+.skills__inner {
+    margin-top: 50px;
+}
+
+.skills__inner > figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__inner > figure > figcaption {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #828282;
+}
+
+.portfolio__inner {
+    flex-direction: column;
+}
+
+.portfolio__inner > figure {
+    margin-top: 50px;
+}
+
+.portfolio__inner > figure > figcaption {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio__link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+footer {
+    padding: 50px 0 60px;
+}
+
+.footer__inner {
+    width: 340px;
+    margin: 37px auto 0 auto;
+}
+
+.footer__link {
+    display: flex;
+}
